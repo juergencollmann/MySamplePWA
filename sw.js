@@ -7,7 +7,8 @@ self.addEventListener('install', event => {
         cache.addAll([
             '/MySamplePWA/',
             '/MySamplePWA/converter.js',
-            '/MySamplePWA/converter.css'
+            '/MySamplePWA/converter.css',
+            '/MySamplePWA/index.html'
         ]);
     })());
 });
