@@ -12,7 +12,7 @@
 </head>
 <body>
     <form id="converter">
-        <label for="input-temp">Temperatur</label>
+        <label for="input-temp">Temperatur!</label>
         <input type="text" id="input-temp" name="input-temp" value="21" />
         <label for="input-unit">from</label>
         <select id="input-unit" name="input-unit">
@@ -31,7 +31,7 @@
     <script src="converter.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js', { scope: '/' });
+            navigator.serviceWorker.register('/MySamplePWA/sw.js', { scope: '/MySamplePWA/' });
         }
     </script>
 
