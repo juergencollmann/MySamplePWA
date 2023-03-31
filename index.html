@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="canonical" href="https://juergencollmann.github.io/MySamplePWA/" />
     <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2" />
     <link rel="manifest" href="/MySamplePWA/manifest.json">
     <link rel="stylesheet" href="/MySamplePWA/converter.css">
@@ -30,7 +31,7 @@
     <script src="converter.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js', { scope: '/MySamplePWA/' });
+            navigator.serviceWorker.register('sw.js', { scope: '/' });
         }
     </script>
 
